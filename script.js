@@ -1,13 +1,12 @@
  // Create the team object
 const team = {
-    //create the player object within the team object
+    //creates _players array that contains three player objects
     //The _ prefix is used to indicate that a property is supposed to be private or internal to the object
     _players: [
       {firstName: 'James', lastName: 'Powels', age: 22},
       {firstName: 'Timothy', lastName: 'Clark', age: 40},
       {firstName: 'John', lastName: 'Atkins', age: 33}
     ],
-    //create the game object within the team object
     _games: [
       {opponent: 'Ravens', teamPoints: '70', opponentPoints: '68'},
       {opponent: 'Hawks', teamPoints: '30', opponentPoints: '45'},
